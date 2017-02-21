@@ -47,7 +47,7 @@ namespace ContosoUniversity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Organisation,Job_Title,Service_Team,Contact_Tel_No,Work_Base_Address,Mobile_No,Email_Address,Courier_Code_Internal_Post,Applicants_Name,Applicant_Date,Managers_Name,Managers_Date,Print_Managers_Name,Applicants_Name,Applicant_DateEmail_Address,LastName, FirstMidName, EnrollmentDate")]Student student)
+        public ActionResult Create([Bind(Include = "Organisation,Job_Title,Service_Team,Contact_Tel_No,Work_Base_Address,Mobile_No,Email_Address,Courier_Code_Internal_Post,Applicants_Name,Applicant_Date,Managers_Name,Managers_Date,Print_Managers_Name,Applicants_Name,Applicant_DateEmail_Address,LastName, FirstMidName")]Student student)
         {
             try
             {
